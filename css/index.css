@@ -1,0 +1,230 @@
+body {
+  background-color: #b9d1e5;
+}
+
+body #header .navbar-brand {
+  color: #1c529d;
+}
+
+body #header .nav-item a {
+  color: black;
+}
+
+body #header .nav-item a:hover {
+  color: #1c529d;
+}
+
+body #slider .w-100 {
+  height: 350px;
+}
+
+@media (max-width: 992px) {
+  body #slider .w-100 {
+    height: 200px;
+  }
+}
+
+body #slider .image-wrapper {
+  height: 250px;
+  width: 250px;
+}
+
+body #slider .carousel-control-prev:hover {
+  background-color: rgba(0, 55, 107, 0.7);
+}
+
+body #slider .carousel-control-next:hover {
+  background-color: rgba(0, 55, 107, 0.7);
+}
+
+body #about {
+  background-color: #00376b;
+  color: white;
+}
+
+body #about .ab_h {
+  display: block;
+  text-align: center;
+  padding-top: 1em;
+}
+
+body #about .ab_h h1 {
+  margin: 0;
+}
+
+body #about .about_row {
+  padding: 1.5em;
+}
+
+body #about .about_row .about_col_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 992px) {
+  body #about .about_row .about_col_1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+body #about .about_row .about_col_2 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1em;
+}
+
+body #about .about_row .about_col_2 p {
+  margin: 0;
+}
+
+body #products .p_h1 {
+  display: block;
+  text-align: center;
+  padding: 1em 0;
+}
+
+body #products .p_h1 h1 {
+  margin: 0;
+}
+
+body #products .product_row {
+  margin: 1.2em 0;
+}
+
+body #products .product_row .product {
+  margin: 1.2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body #products .product_row .product img {
+  border-radius: 50%;
+}
+
+body #products .product_row .product .product_name {
+  margin: 0.5em 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+body #products .product_row .product p {
+  margin: 0.5em 0;
+  font-size: 1rem;
+}
+
+body #products .product_row .product a {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #1c529d;
+  color: white;
+  border: 1px solid #1c529d;
+}
+
+body #testimonial {
+  background-color: #dfb320;
+  margin: 1.2em 0 0;
+}
+
+body #testimonial .t_h1 {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+body #testimonial .t_h1 h1 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+body #testimonial #testimonial_t .carousel-inner {
+  height: 200px;
+}
+
+@media (max-width: 992px) {
+  body #testimonial #testimonial_t .carousel-inner {
+    height: 350px;
+  }
+}
+
+body #testimonial #testimonial_t .carousel-item {
+  text-align: center;
+}
+
+body #testimonial #testimonial_t .carousel-item p {
+  margin: 0.5em 0;
+}
+
+body #testimonial #testimonial_t .carousel-item h3 {
+  margin: 0.5em 0;
+}
+
+body #footer {
+  background-color: #00376b;
+  color: white;
+  padding-top: 1.5em;
+}
+
+body #footer .f_c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body #footer .f_c h3 {
+  color: #dfb320;
+}
+
+body #footer .f_c ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body #footer .f_c ul li {
+  padding: 0.5rem 0;
+}
+
+body #footer .f_c ul li svg {
+  margin: 2px 0px 6px;
+}
+
+body #footer .f_c ul li a {
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=index.css.map */
