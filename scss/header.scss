@@ -1,0 +1,22 @@
+@import './color';
+body{
+    #header{
+        .navbar-brand{
+            color: $primary;
+        }
+        .nav-item{
+            a{
+                color: black;
+                &:hover{
+                    color: rgb(28,82,157);
+                }
+            }
+        }
+        .dropdown-menu{
+            background-color: $primary;
+            a{
+                color: white;
+            }
+        }
+    }
+}

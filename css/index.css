@@ -2,18 +2,6 @@ body {
   background-color: #b9d1e5;
 }
 
-body #header .navbar-brand {
-  color: #1c529d;
-}
-
-body #header .nav-item a {
-  color: black;
-}
-
-body #header .nav-item a:hover {
-  color: #1c529d;
-}
-
 body #slider .w-100 {
   height: 350px;
 }
@@ -162,7 +150,7 @@ body #testimonial #testimonial_t .carousel-inner {
   height: 200px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   body #testimonial #testimonial_t .carousel-inner {
     height: 350px;
   }
@@ -178,53 +166,5 @@ body #testimonial #testimonial_t .carousel-item p {
 
 body #testimonial #testimonial_t .carousel-item h3 {
   margin: 0.5em 0;
-}
-
-body #footer {
-  background-color: #00376b;
-  color: white;
-  padding-top: 1.5em;
-}
-
-body #footer .f_c {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-body #footer .f_c h3 {
-  color: #dfb320;
-}
-
-body #footer .f_c ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-body #footer .f_c ul li {
-  padding: 0.5rem 0;
-}
-
-body #footer .f_c ul li svg {
-  margin: 2px 0px 6px;
-}
-
-body #footer .f_c ul li a {
-  font-size: 1em;
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-  text-transform: capitalize;
 }
 /*# sourceMappingURL=index.css.map */

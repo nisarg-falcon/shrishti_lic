@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAEQ,IAFJ,CACA,OAAO,CACH,aAAa,CAAA;EACT,KAAK,ECJP,OAAO;CDKR;;AAJT,AAMY,IANR,CACA,OAAO,CAIH,SAAS,CACL,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;CAIf;;AAXb,AAQgB,IARZ,CACA,OAAO,CAIH,SAAS,CACL,CAAC,AAEI,MAAM,CAAA;EACH,KAAK,EAAE,OAAc;CACxB;;AAVjB,AAaQ,IAbJ,CACA,OAAO,CAYH,cAAc,CAAA;EACV,gBAAgB,ECflB,OAAO;CDmBR;;AAlBT,AAeY,IAfR,CACA,OAAO,CAYH,cAAc,CAEV,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "../scss/header.scss",
+        "../scss/_color.scss"
+    ],
+    "names": [],
+    "file": "header.css"
+}

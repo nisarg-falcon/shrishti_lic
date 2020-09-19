@@ -1,0 +1,39 @@
+@import './color';
+body{
+    #footer{
+        background-color: $dark-blue;
+        color: white;
+        padding-top: 1.5em;
+        
+        .f_c{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            h3{
+                color: $dark-yellow;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    padding: 0.5rem 0;
+                    svg{
+                        margin: 2px 0px 6px;
+                    }
+                    a{
+                        font-size: 1em;
+                        text-decoration: none;
+                        color: white;
+                        cursor: pointer;
+                        // text-transform: capitalize;
+                        &:hover{
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
