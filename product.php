@@ -3,19 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/product.css">
-    <title>Shrishti | Products</title>
+    <title>Shrishti | Plans</title>
 </head>
 <body>
     <?php include('components/header.php'); ?>
-    <div class="row" id="banner">
-        <div class="col-md-12 banner">
-            <h1>Products</h1>
-        </div>
-    </div>
+    <?php include('components/banner.php'); ?>
     <div class="container-fluid" id="products">
         <div class="container-lg">
             <div class="row products">

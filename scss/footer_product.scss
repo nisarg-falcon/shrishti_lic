@@ -3,7 +3,7 @@
 @import './header';
 @import './footer';
 body{
-    background: $background;
+    background: $background !important;
     ol{
         margin: 0;
         padding: 0em 1em;

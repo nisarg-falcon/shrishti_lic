@@ -128,7 +128,7 @@ body #footer .f_c:nth-child(2) .f_c_p {
 }
 
 body {
-  background: #b9d1e5;
+  background: #b9d1e5 !important;
 }
 
 body ol {
@@ -246,4 +246,4 @@ body #products #products_content .tab-pane .tab-content .tab-pane ul {
 body #products #products_content .tab-pane .tab-content .tab-pane ul li {
   margin: 10px 0;
 }
-/*# sourceMappingURL=product.css.map */
+/*# sourceMappingURL=footer_product.css.map */
