@@ -24,6 +24,21 @@
   color: white;
 }
 
+body {
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
+}
+
+body input::-webkit-outer-spin-button,
+body input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body input[type=number] {
+  -moz-appearance: textfield;
+}
+
 body #header .navbar-brand {
   color: #1c529d;
 }
@@ -129,36 +144,18 @@ body #footer .f_c:nth-child(2) .f_c_p {
 
 body {
   background-color: #b9d1e5 !important;
-  /* Chrome, Safari, Edge, Opera */
-  /* Firefox */
-}
-
-body input::-webkit-outer-spin-button,
-body input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-body input[type=number] {
-  -moz-appearance: textfield;
 }
 
 body #contact {
-  margin: 2rem 0;
+  margin: 1.2em 0;
 }
 
-@media (max-width: 992px) {
-  body #contact {
-    margin: 0;
-  }
-}
-
-body #contact h3 {
-  margin: 0 2rem;
+body h3 {
+  margin: 0 1.2em;
 }
 
 @media (max-width: 768px) {
-  body #contact h3 {
+  body h3 {
     margin: 0;
   }
 }

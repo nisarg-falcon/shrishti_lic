@@ -57,15 +57,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -99,15 +102,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -141,15 +147,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -180,19 +189,22 @@
                                     </p>
                                 </div>
                                 <div class="tab-pane fade " id="j_umang_plan2" role="tabpanel">
-                                   <form>
+                                   <form >
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">        
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -226,15 +238,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -268,15 +283,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -310,15 +328,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -352,15 +373,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -394,15 +418,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -436,15 +463,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -479,15 +509,18 @@
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
                                            <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -520,16 +553,19 @@
                                    <form>
                                        <h3>Enquiry Form</h3>
                                        <div class="form-group">
-                                           <label for="name"> Full Name</label>
-                                            <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <label for="name">Full Name</label>
+                                           <input type="text" name="name" class="form-control" placeholder="John Parker">
+                                           <div class="alert alert-danger my-2 name-error"></div> 
                                        </div>
                                        <div class="form-group">
                                             <label for="mail">Email Address</label>
                                             <input type="email" name="mail" class="form-control" placeholder="mail@example.com">
+                                            <div class="alert alert-danger my-2 mail-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Phone Number</label>
                                             <input type="tel" name="number" class="form-control" placeholder="Contact No." >
+                                            <div class="alert alert-danger my-2 contact-error"></div>
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
@@ -552,5 +588,6 @@
     <?php include('components/footer.php'); ?>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/product.js"></script>
 </body>
 </html>
