@@ -1,0 +1,42 @@
+@import './banner';
+@import './color';
+@import './header';
+@import './footer';
+
+body{
+    background-color: $background !important;
+        /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+    -moz-appearance: textfield;
+    }
+    #contact{
+        margin: 2rem 0;
+        @media (max-width: 992px){
+            margin: 0;
+        }
+        h3{
+            margin: 0 2rem;
+            @media (max-width: 768px){
+                margin: 0;
+            }
+        }
+    }
+    form{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        @media (max-width: 992px){
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        label{
+            color: $primary;
+        }
+    }
+}

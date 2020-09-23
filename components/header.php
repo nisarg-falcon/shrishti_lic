@@ -11,7 +11,7 @@
                             <a href="/shrishti_lic" class="nav-link">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link">About Us</a>
+                            <a href="/shrishti_lic/footer-product.php" class="nav-link">Products</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" id="products_nav" role="button" data-toggle="dropdown">Plans</a>
@@ -25,7 +25,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Contact Us</a>
+                            <a href="/shrishti_lic/contact.php" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>

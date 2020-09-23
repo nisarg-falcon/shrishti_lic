@@ -9,7 +9,11 @@
 </head>
 <body>
     <?php include('components/header.php'); ?>
-    <?php include('components/banner.php'); ?>
+    <div class="row" id="banner">
+        <div class="col-md-12 banner">
+            <h1>Plans</h1>
+        </div>
+    </div>
     <div class="container-fluid" id="products">
         <div class="container-lg">
             <div class="row products">
