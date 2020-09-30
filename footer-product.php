@@ -72,7 +72,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="New Jeevan Anand" >
+                                            <input type="text" name="plan" readonly class="form-control" value="New Jeevan Anand" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -117,7 +117,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Jeevan Lakshya" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Jeevan Lakshya" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -162,7 +162,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Jeevan Labh" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Jeevan Labh" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -208,7 +208,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Jeevan Umang" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Jeevan Umang" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -253,7 +253,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Jeevan Vidhya" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Jeevan Vidhya" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -298,7 +298,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Jeevan Tarun" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Jeevan Tarun" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -343,7 +343,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Jeevan Sathi" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Jeevan Sathi" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -388,7 +388,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Aadhaar Stambh" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Aadhaar Stambh" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -433,7 +433,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Adhaar Shila" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Adhaar Shila" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -478,7 +478,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Kanya Daan" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Kanya Daan" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -524,7 +524,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Income Secure" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Income Secure" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >
@@ -569,7 +569,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="number">Plan</label>
-                                            <input type="text" readonly class="form-control" value="Jackpot Plan" >
+                                            <input type="text" name="plan" readonly class="form-control" value="Jackpot Plan" >
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-primary" >

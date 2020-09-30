@@ -7,6 +7,7 @@ $(document).ready(function(){
         let name = $(this).find("[name='name']").val();
         let mail = $(this).find("[name='mail']").val();
         let contact = $(this).find("[name='number']").val();
+        let plan = $(this).find("[name='plan']").val();
         const name_err = $(this).find('.name-error');
         const mail_err = $(this).find('.mail-error');
         const contact_err = $(this).find('.contact-error'); 
@@ -35,7 +36,11 @@ $(document).ready(function(){
             contact_err.text("Only Numbers Are Valid");
         }
         else{
-            console.log("valid");
+            $.post('mail.php',{name: name,mail: mail,contact:contact,plan:plan},function(response){
+                if(response = 'Enquiry Inserted'){
+                    console.log('done');
+                }
+            });
         }
 
     })
