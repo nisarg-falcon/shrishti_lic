@@ -8,7 +8,7 @@
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg>
-                            <a href="/">Home</a></li>
+                            <a href="/shrishti_lic">Home</a></li>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
@@ -34,34 +34,34 @@
                           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg>
-                            <a>New Jeevan Anand</a>
+                            <a href="footer-product.php#j_anand">New Jeevan Anand</a>
                           </li>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg>
-                            <a>Jeevan Lakshya</a></li>
+                            <a href="footer-product.php#j_lakshya">Jeevan Lakshya</a></li>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                               </svg>
-                            <a>Jeevan Labh</a></li>
+                            <a href="footer-product.php#j_labh">Jeevan Labh</a></li>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                               </svg>
-                            <a>Jeevan Umang</a></li>
+                            <a href="footer-product.php#j_umang">Jeevan Umang</a></li>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                               </svg>
-                            <a>Aadhaar Stambh</a>
+                            <a href="footer-product.php#a_stambh">Aadhaar Stambh</a>
                           </li>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                                 <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                               </svg>
-                            <a>Jeevan Vidhya</a>
+                            <a href="footer-product.php#j_vidhya">Jeevan Vidhya</a>
                           </li>
                     </ul>
                     <ul>
@@ -69,37 +69,37 @@
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                         </svg>
-                        <a>Aadhaar Shila</a>
+                        <a href="footer-product.php#a_shila">Aadhaar Shila</a>
                       </li>
                       <li>
                           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg>
-                          <a>Jeevan Tarun</a>
+                          <a href="footer-product.php#j_tarun">Jeevan Tarun</a>
                       </li>
                       <li>
                           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                               <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                             </svg>
-                          <a>Kanya Daan</a>
+                          <a href="footer-product.php#k_d">Kanya Daan</a>
                       </li>
                       <li>
                           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg>
-                          <a>Jeevan Sathi</a>
+                          <a href="footer-product.php#j_sathi">Jeevan Sathi</a>
                       </li>
                       <li>
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                           <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                         </svg>
-                        <a>Income Secure</a>
+                        <a href="footer-product.php#i_s">Income Secure</a>
                       </li>
                       <li>
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                           <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                         </svg>
-                        <a>Jackpot Plan</a>
+                        <a href="footer-product.php#j_p">Jackpot Plan</a>
                       </li>
                     </ul>
                   </div>
@@ -124,6 +124,11 @@
                             <a>+91 1234567890</a></li>
                     </ul>
                 </div>
+            </div>
+            <div class="row">
+              <div class="credit">
+              <a class="my-3">Developed By Nisarg Saple</a>
+              </div>
             </div>
         </div>
     </footer>

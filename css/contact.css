@@ -39,8 +39,24 @@ body input[type=number] {
   -moz-appearance: textfield;
 }
 
+body #header {
+  background-color: #b9d1e5;
+}
+
 body #header .navbar-brand {
   color: #1c529d;
+}
+
+body #header .navbar-brand img {
+  height: 100px;
+  width: 250px;
+}
+
+@media (max-width: 992px) {
+  body #header .navbar-brand img {
+    height: 80px;
+    width: 200px;
+  }
 }
 
 body #header .nav-item a {
@@ -140,6 +156,16 @@ body #footer .f_c:nth-child(2) .f_c_p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+body #footer .credit {
+  width: 100%;
+  text-align: right;
+  padding: 1em 0;
+}
+
+body #footer .credit a {
+  color: white;
 }
 
 body {

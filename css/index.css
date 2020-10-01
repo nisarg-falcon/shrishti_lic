@@ -13,8 +13,24 @@ body input[type=number] {
   -moz-appearance: textfield;
 }
 
+body #header {
+  background-color: #b9d1e5;
+}
+
 body #header .navbar-brand {
   color: #1c529d;
+}
+
+body #header .navbar-brand img {
+  height: 100px;
+  width: 250px;
+}
+
+@media (max-width: 992px) {
+  body #header .navbar-brand img {
+    height: 80px;
+    width: 200px;
+  }
 }
 
 body #header .nav-item a {
@@ -116,17 +132,23 @@ body #footer .f_c:nth-child(2) .f_c_p {
   }
 }
 
-body {
-  background-color: #b9d1e5;
+body #footer .credit {
+  width: 100%;
+  text-align: right;
+  padding: 1em 0;
+}
+
+body #footer .credit a {
+  color: white;
 }
 
 body #slider .w-100 {
-  height: 350px;
+  height: 40vh !important;
 }
 
 @media (max-width: 992px) {
   body #slider .w-100 {
-    height: 200px;
+    height: 20vh !important;
   }
 }
 
@@ -192,6 +214,10 @@ body #about .about_row .about_col_2 p {
   margin: 0;
 }
 
+body #products {
+  background-color: white;
+}
+
 body #products .p_h1 {
   display: block;
   text-align: center;
@@ -204,10 +230,21 @@ body #products .p_h1 h1 {
 
 body #products .product_row {
   margin: 1.2em 0;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  body #products .product_row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 body #products .product_row .product {
-  margin: 1.2em 0;
+  border: 1px solid rgba(92, 99, 105, 0.25);
+  margin: 1.2em 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,13 +252,14 @@ body #products .product_row .product {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 body #products .product_row .product img {
@@ -240,12 +278,35 @@ body #products .product_row .product p {
 }
 
 body #products .product_row .product a {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: none;
   padding: 10px 20px;
-  border-radius: 25px;
+  border-radius: 2px;
   background-color: #1c529d;
   color: white;
   border: 1px solid #1c529d;
+}
+
+body #products .product_row .product a svg {
+  -webkit-transition: .5s;
+  transition: .5s;
+  font-size: 2em;
+}
+
+body #products .product_row .product a:hover svg {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+body #products .product_row .product:hover {
+  -webkit-box-shadow: 0px 10px 20px 10px rgba(92, 95, 105, 0.25);
+          box-shadow: 0px 10px 20px 10px rgba(92, 95, 105, 0.25);
 }
 
 body #testimonial {

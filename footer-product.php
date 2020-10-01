@@ -16,9 +16,12 @@
     </div>
     <div class="container-fluid" id="products">
         <div class="container-lg">
+            <div class="row product-active">
+            <a class="btn-txt">Products</a>
+            </div>
             <div class="row products">
                 <button class="btn btn-primary plan-btn" type="button" data-toggle="collapse" data-target="#products_pills" aria-expanded="false" aria-controls="collapseExample">
-                    Products    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-down-fill" fill="currentColor" >
+                    <a class="btn-txt">Products </a>   <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-down-fill" fill="currentColor" >
                         <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
                       </svg>
                 </button>
@@ -37,7 +40,7 @@
                     <a href="#j_p" role="tab" id="jackpot_plan" data-toggle="pill" class="nav-link">Jackpot Plan </a>
                 </div>
                 <div class="tab-content" id="products_content">
-                    <div class="tab-pane fade show active" id="j_anand" role="tabpanel">
+                    <div class="tab-pane otr-div   fade show active" id="j_anand" role="tabpanel">
                     <div class="j_anand_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -83,7 +86,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="j_lakshya" role="tabpanel">
+                    <div class="tab-pane otr-div  fade" id="j_lakshya" role="tabpanel">
                     <div class="j_lakshya_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -128,7 +131,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="j_labh" role="tabpanel">
+                    <div class="tab-pane otr-div  fade" id="j_labh" role="tabpanel">
                     <div class="j_labh_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -173,7 +176,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="j_umang" role="tabpanel">
+                    <div class="tab-pane otr-div  fade" id="j_umang" role="tabpanel">
                     <div class="j_umang_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -219,7 +222,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="j_vidhya" role="tabpanel">
+                    <div class="tab-pane  otr-div fade" id="j_vidhya" role="tabpanel">
                     <div class="j_vidhya_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -264,7 +267,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="j_tarun" role="tabpanel">
+                    <div class="tab-pane otr-div  fade" id="j_tarun" role="tabpanel">
                     <div class="j_tarun_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -309,7 +312,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="j_sathi" role="tabpanel">
+                    <div class="tab-pane otr-div  fade" id="j_sathi" role="tabpanel">
                     <div class="j_sathi_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -354,7 +357,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="a_stambh" role="tabpanel">
+                    <div class="tab-pane  otr-div fade" id="a_stambh" role="tabpanel">
                     <div class="a_stambh_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -399,7 +402,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="a_shila" role="tabpanel">
+                    <div class="tab-pane  otr-div fade" id="a_shila" role="tabpanel">
                     <div class="a_shila_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -444,7 +447,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="k_d" role="tabpanel">
+                    <div class="tab-pane  otr-div fade" id="k_d" role="tabpanel">
                     <div class="k_d_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -489,7 +492,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="i_s" role="tabpanel">
+                    <div class="tab-pane  otr-div fade" id="i_s" role="tabpanel">
                     <div class="i_s_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -535,7 +538,7 @@
                         </div>
                     </div>
                     
-                    <div class="tab-pane fade" id="j_p" role="tabpanel">
+                    <div class="tab-pane  otr-div fade" id="j_p" role="tabpanel">
                     <div class="j_p_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">

@@ -12,8 +12,17 @@ body{
     -moz-appearance: textfield;
     }
     #header{
+        background-color: $background;
         .navbar-brand{
             color: $primary;
+            img{
+                height: 100px;
+                width: 250px;
+                @media (max-width: 992px){
+                    height: 80px;
+                    width: 200px;
+                }
+            }
         }
         .nav-item{
             a{

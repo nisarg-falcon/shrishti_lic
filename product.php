@@ -16,9 +16,12 @@
     </div>
     <div class="container-fluid" id="products">
         <div class="container-lg">
+            <div class="row plan-active">
+                <a class="btn-txt">Products</a>
+            </div>
             <div class="row products">
                 <button class="btn btn-primary plan-btn" type="button" data-toggle="collapse" data-target="#products_pills" aria-expanded="false" aria-controls="collapseExample">
-                    Plans    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-down-fill" fill="currentColor" >
+                <a class="btn-txt">Plan </a><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-down-fill" fill="currentColor" >
                         <path d="M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
                       </svg>
                 </button>
@@ -31,7 +34,7 @@
                     <a href="#health-plan" role="tab" id="health_plan" data-toggle="pill" class="nav-link">Health</a>
                 </div>
                 <div class="tab-content" id="products_content">
-                    <div class="tab-pane fade show active" id="endowment-plan" role="tabpanel">
+                    <div class="tab-pane otr-div fade show active" id="endowment-plan" role="tabpanel">
                         <div class="en_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -73,7 +76,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show " id="children-plan" role="tabpanel">
+                    <div class="tab-pane otr-div fade show " id="children-plan" role="tabpanel">
                         <div class="cp_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -143,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show " id="moneyback-plan" role="tabpanel">
+                    <div class="tab-pane otr-div fade show " id="moneyback-plan" role="tabpanel">
                         <div class="mob_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -198,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show " id="pension-plan" role="tabpanel">
+                    <div class="tab-pane otr-div fade show " id="pension-plan" role="tabpanel">
                         <div class="pension_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -267,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show " id="terms-plan" role="tabpanel">
+                    <div class="tab-pane otr-div fade show " id="terms-plan" role="tabpanel">
                         <div class="term_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -314,7 +317,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade show " id="health-plan" role="tabpanel">
+                    <div class="tab-pane otr-div fade show " id="health-plan" role="tabpanel">
                         <div class="health_tab">
                             <nav>
                                 <div class="nav nav-tabs" id="en_tab" role="tablist">
@@ -407,6 +410,7 @@
     </div>
     <?php include('components/footer.php'); ?>
     <script src="js/jquery.min.js"></script>
+    <script src="js/plan.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -59,53 +59,7 @@
             </div>
         </div>
     </div>
-    <div id="products" class="container-fluid">
-        <div class="container-lg">
-            <div class="row p_h1">
-                <h1>Our Products</h1>
-            </div>
-            <div class="row product_row">
-                <div class="col-md-4 product">
-                    <img src="images/products/endowment.jpg" height="140px" width="140px">
-                    <p class="product_name">Endowment Plans</p>
-                    <p>With growing education needs don't worry about your child's future, secure your child's financial future with this plan which is especially designed to meet the increasing educational, marriage and other needs ...</p>
-                    <a>Read More...</a>
-                </div>
-                <div class="col-md-4 product">
-                    <img src="images/products/children-plan.jpg" height="140px" width="140px">
-                    <p class="product_name">Children Plans</p>
-                    <p>With growing education needs don't worry about your child's future, secure your child's financial future with this plan which is especially designed to meet the increasing educational, marriage and other needs ...</p>
-                    <a>Read More...</a>
-                </div>
-                <div class="col-md-4 product">
-                    <img src="images/products/health.jpg" height="140px" width="140px">
-                    <p class="product_name">Health Plans</p>
-                    <p>With growing education needs don't worry about your child's future, secure your child's financial future with this plan which is especially designed to meet the increasing educational, marriage and other needs ...</p>
-                    <a>Read More...</a>
-                </div>
-            </div>
-            <div class="row product_row">
-                <div class="col-md-4 product">
-                    <img src="images/products/money-back-plan.jpg" height="140px" width="140px">
-                    <p class="product_name">Money Back Plans</p>
-                    <p>With growing education needs don't worry about your child's future, secure your child's financial future with this plan which is especially designed to meet the increasing educational, marriage and other needs ...</p>
-                    <a>Read More...</a>
-                </div>
-                <div class="col-md-4 product">
-                    <img src="images/products/pension.jpg" height="140px" width="140px">
-                    <p class="product_name">Pension Plans</p>
-                    <p>With growing education needs don't worry about your child's future, secure your child's financial future with this plan which is especially designed to meet the increasing educational, marriage and other needs ...</p>
-                    <a>Read More...</a>
-                </div>
-                <div class="col-md-4 product">
-                    <img src="images/products/terms.jpg" height="140px" width="140px">
-                    <p class="product_name">Terms Plans</p>
-                    <p>With growing education needs don't worry about your child's future, secure your child's financial future with this plan which is especially designed to meet the increasing educational, marriage and other needs ...</p>
-                    <a>Read More...</a>
-                </div>
-            </div>
-       </div>
-    </div>
+    <?php include('components/plan.php'); ?>
     <div id="testimonial" class="container-fluid">
         <div class="container-lg">
             <div class="row t_h1">

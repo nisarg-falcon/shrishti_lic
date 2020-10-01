@@ -39,8 +39,24 @@ body input[type=number] {
   -moz-appearance: textfield;
 }
 
+body #header {
+  background-color: #b9d1e5;
+}
+
 body #header .navbar-brand {
   color: #1c529d;
+}
+
+body #header .navbar-brand img {
+  height: 100px;
+  width: 250px;
+}
+
+@media (max-width: 992px) {
+  body #header .navbar-brand img {
+    height: 80px;
+    width: 200px;
+  }
 }
 
 body #header .nav-item a {
@@ -142,6 +158,16 @@ body #footer .f_c:nth-child(2) .f_c_p {
   }
 }
 
+body #footer .credit {
+  width: 100%;
+  text-align: right;
+  padding: 1em 0;
+}
+
+body #footer .credit a {
+  color: white;
+}
+
 body {
   background: #b9d1e5 !important;
 }
@@ -173,6 +199,42 @@ body #products button {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+body #products button a {
+  color: white;
+  text-decoration: none;
+}
+
+body #products .product-active {
+  padding: 0 1.5em;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 992px) {
+  body #products .product-active {
+    display: none;
+  }
+}
+
+body #products .product-active a {
+  display: block;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: 1em 1.2em;
+  background-color: #1c529d;
+  border-radius: 5px;
 }
 
 @media (max-width: 992px) {
