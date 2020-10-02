@@ -2,7 +2,7 @@
         <div class="container-lg">
             <div class="row f_r">
                 <div class="col-md-3 f_c">
-                    <h3>About Us</h3>
+                    <h3>Sitemap</h3>
                     <ul>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
@@ -13,21 +13,21 @@
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg>
-                            <a>About Us</a></li>
-                        <li>
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                          </svg>
                             <a>Products</a></li>
                         <li>
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                           </svg>
-                            <a>Contact Us</a></li>
+                            <a>Plans</a></li>
+                        <li>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                          </svg>
+                            <a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 f_c" >
-                    <h3>Products</h3>
+                  <h3>Products</h3>
                   <div class="f_c_p">
                     <ul>
                         <li>
@@ -125,6 +125,7 @@
                     </ul>
                 </div>
             </div>
+           
             <div class="row">
               <div class="credit">
               <a class="my-3">Developed By Nisarg Saple</a>

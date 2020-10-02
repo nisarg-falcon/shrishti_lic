@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-10-01 18:38:34
+/* Smarty version 3.1.34-dev-7, created on 2020-10-02 14:12:22
   from '/Applications/XAMPP/xamppfiles/htdocs/shrishti_lic/templates/plan.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f76060ac4f5e7_65247635',
+  'unifunc' => 'content_5f771926644f47_58406678',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5ec5dd8a6f1d35c8a1ebbfff3f9762be667fb3df' => 
     array (
       0 => '/Applications/XAMPP/xamppfiles/htdocs/shrishti_lic/templates/plan.tpl',
-      1 => 1601570312,
+      1 => 1601640739,
       2 => 'file',
     ),
   ),
@@ -20,18 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f76060ac4f5e7_65247635 (Smarty_Internal_Template $_smarty_tpl) {
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-</head>
-<body>
-    <div id="products" class="container-fluid">
+function content_5f771926644f47_58406678 (Smarty_Internal_Template $_smarty_tpl) {
+?>    <div id="products" class="container-fluid">
         <div class="container-lg">
             <div class="row p_h1">
                 <h1>Our Plans</h1>
@@ -68,13 +58,5 @@ $_smarty_tpl->tpl_vars['x']->first = $_smarty_tpl->tpl_vars['x']->iteration === 
 }
 ?>
        </div>
-    </div>
-    <?php echo '<script'; ?>
- src="js/jquery.min.js"><?php echo '</script'; ?>
->
-    <?php echo '<script'; ?>
- src="js/bootstrap.min.js"><?php echo '</script'; ?>
->
-</body>
-</html><?php }
+    </div><?php }
 }

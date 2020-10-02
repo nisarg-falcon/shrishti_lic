@@ -12,7 +12,10 @@ body{
     -moz-appearance: textfield;
     }
     #header{
-        background-color: $background;
+        background-color: #eaf4fc;
+        @media (max-width: 992px){
+            padding: 0 !important;
+        }
         .navbar-brand{
             color: $primary;
             img{
@@ -24,11 +27,27 @@ body{
                 }
             }
         }
+        #nav{
+            ul{
+                width: 70%;
+                display: flex;
+                justify-content: space-around;
+                @media (max-width: 992px){
+                    width: 100%;
+                }
+            }
+        }
         .nav-item{
             a{
+                font-size: 1.2rem;
+                letter-spacing: 1px;
                 color: black;
+                transition: .4s;
+                font-weight: 200;
+                padding: 1em 1.5em;
                 &:hover{
-                    color: rgb(28,82,157);
+                    background-color: $primary;
+                    color: white;
                 }
             }
         }

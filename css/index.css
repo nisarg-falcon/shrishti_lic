@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 body {
   /* Chrome, Safari, Edge, Opera */
   /* Firefox */
@@ -14,7 +16,13 @@ body input[type=number] {
 }
 
 body #header {
-  background-color: #b9d1e5;
+  background-color: #eaf4fc;
+}
+
+@media (max-width: 992px) {
+  body #header {
+    padding: 0 !important;
+  }
 }
 
 body #header .navbar-brand {
@@ -33,12 +41,34 @@ body #header .navbar-brand img {
   }
 }
 
+body #header #nav ul {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  body #header #nav ul {
+    width: 100%;
+  }
+}
+
 body #header .nav-item a {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
   color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-weight: 200;
+  padding: 1em 1.5em;
 }
 
 body #header .nav-item a:hover {
-  color: #1c529d;
+  background-color: #1c529d;
+  color: white;
 }
 
 body #header .dropdown-menu {
@@ -85,8 +115,10 @@ body #footer .f_c h3 {
 }
 
 body #footer .f_c ul {
+  width: 100%;
+  height: 100%;
   margin: 0;
-  padding: 0;
+  padding: 1.5em 0;
   list-style: none;
 }
 
@@ -120,7 +152,8 @@ body #footer .f_c:nth-child(2) .f_c_p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 90%;
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -134,7 +167,7 @@ body #footer .f_c:nth-child(2) .f_c_p {
 
 body #footer .credit {
   width: 100%;
-  text-align: right;
+  text-align: center;
   padding: 1em 0;
 }
 
@@ -142,8 +175,17 @@ body #footer .credit a {
   color: white;
 }
 
+body {
+  font-family: "Varela", sans-serif;
+  background-color: #eaf4fc;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Playfair Display", serif;
+}
+
 body #slider .w-100 {
-  height: 40vh !important;
+  height: 400px !important;
 }
 
 @media (max-width: 992px) {
@@ -166,31 +208,66 @@ body #slider .carousel-control-next:hover {
 }
 
 body #about {
-  background-color: #00376b;
-  color: white;
+  background-color: #eaf4fc;
+  color: black;
 }
 
 body #about .ab_h {
   display: block;
   text-align: center;
-  padding-top: 1em;
+  padding-top: 45px;
 }
 
 body #about .ab_h h1 {
   margin: 0;
+  font-family: "Playfair Display", serif;
+  position: relative;
+}
+
+body #about .ab_h h1::before {
+  top: 50%;
+  display: block;
+  position: absolute;
+  width: 42%;
+  content: '';
+  height: 4px;
+  background-color: grey;
+}
+
+@media (max-width: 768px) {
+  body #about .ab_h h1::before {
+    width: 30%;
+  }
+}
+
+body #about .ab_h h1::after {
+  right: 0;
+  top: 50%;
+  display: block;
+  position: absolute;
+  width: 42%;
+  content: '';
+  height: 4px;
+  background-color: grey;
+}
+
+@media (max-width: 768px) {
+  body #about .ab_h h1::after {
+    width: 30%;
+  }
 }
 
 body #about .about_row {
-  padding: 1.5em;
+  padding: 45px 0px;
 }
 
 body #about .about_row .about_col_1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -204,18 +281,46 @@ body #about .about_row .about_col_1 {
   }
 }
 
+body #about .about_row .about_col_1 .agent_pic {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  body #about .about_row .about_col_1 .agent_pic {
+    height: 300px;
+  }
+}
+
 body #about .about_row .about_col_2 {
   font-size: 1rem;
-  text-align: center;
   padding: 1em;
 }
 
+@media (max-width: 768px) {
+  body #about .about_row .about_col_2 {
+    padding: 2em 1em;
+  }
+}
+
 body #about .about_row .about_col_2 p {
+  font-family: "Varela", sans-serif;
   margin: 0;
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  body #about .about_row .about_col_2 p {
+    line-height: 1.6;
+    text-align: justify;
+  }
 }
 
 body #products {
-  background-color: white;
+  background-color: #eaf4fc;
 }
 
 body #products .p_h1 {
@@ -226,6 +331,40 @@ body #products .p_h1 {
 
 body #products .p_h1 h1 {
   margin: 0;
+  position: relative;
+}
+
+body #products .p_h1 h1::before {
+  top: 50%;
+  display: block;
+  position: absolute;
+  width: 40%;
+  content: '';
+  height: 4px;
+  background-color: grey;
+}
+
+@media (max-width: 768px) {
+  body #products .p_h1 h1::before {
+    width: 25%;
+  }
+}
+
+body #products .p_h1 h1::after {
+  right: 0;
+  top: 50%;
+  display: block;
+  position: absolute;
+  width: 40%;
+  content: '';
+  height: 4px;
+  background-color: grey;
+}
+
+@media (max-width: 768px) {
+  body #products .p_h1 h1::after {
+    width: 25%;
+  }
 }
 
 body #products .product_row {
@@ -243,8 +382,7 @@ body #products .product_row {
 }
 
 body #products .product_row .product {
-  border: 1px solid rgba(92, 99, 105, 0.25);
-  margin: 1.2em 0.5em;
+  margin-top: 1.2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,6 +429,7 @@ body #products .product_row .product a {
   background-color: #1c529d;
   color: white;
   border: 1px solid #1c529d;
+  text-decoration: none;
 }
 
 body #products .product_row .product a svg {
@@ -307,6 +446,7 @@ body #products .product_row .product a:hover svg {
 body #products .product_row .product:hover {
   -webkit-box-shadow: 0px 10px 20px 10px rgba(92, 95, 105, 0.25);
           box-shadow: 0px 10px 20px 10px rgba(92, 95, 105, 0.25);
+  border: 1px solid rgba(92, 99, 105, 0.25);
 }
 
 body #testimonial {
@@ -323,6 +463,40 @@ body #testimonial .t_h1 {
 body #testimonial .t_h1 h1 {
   margin: 0;
   padding: 0.5em 0;
+  position: relative;
+}
+
+body #testimonial .t_h1 h1::before {
+  top: 50%;
+  display: block;
+  position: absolute;
+  width: 38%;
+  content: '';
+  height: 4px;
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  body #testimonial .t_h1 h1::before {
+    width: 20%;
+  }
+}
+
+body #testimonial .t_h1 h1::after {
+  right: 0;
+  top: 50%;
+  display: block;
+  position: absolute;
+  width: 38%;
+  content: '';
+  height: 4px;
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  body #testimonial .t_h1 h1::after {
+    width: 20%;
+  }
 }
 
 body #testimonial #testimonial_t .carousel-inner {

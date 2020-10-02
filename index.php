@@ -45,12 +45,12 @@
         <div  class="container-lg ">
             <div class="row ab_h"><h1>About</h1></div>
             <div class="row about_row">
-                <div class="col-md-6 about_col_1">
+                <div class="col-md-4 about_col_1">
                     <div class="image-wrapper">
-                        <img src="images/agent.jpg" class="rounded-circle" height="250px" width="250px" />
+                        <img src="images/agent_1.jpg" class="agent_pic"/>
                     </div>
                 </div>
-                <div class="col-md-6 about_col_2">
+                <div class="col-md-8 about_col_2">
                     <p>Constantly Going an extra mile
                         I have been associated with LIC for the past 10 years and till going. Due to LIC's advanced plans and solutions for every need, I was able to cater to all sought of clients and customize the plans accordingly. 
                         It gives me immense pleasure when my clients see me as their advisor. I take keen interest to cater to various clients with plans that suit their need and thus am able to save a lot of their funds. 
