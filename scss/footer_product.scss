@@ -2,8 +2,15 @@
 @import './banner.scss';
 @import './header';
 @import './footer';
+@import './font';
 body{
-    background: $background !important;
+    h1,h2,h3,h4,h5,h6{
+        font-family: $playfair;
+    }
+    a,p{
+        font-family: $varela;
+    }
+    background: $wb !important;
     ol{
         margin: 0;
         padding: 0em 1em;
@@ -46,6 +53,7 @@ body{
             }
         }
         .products{
+            flex-wrap: nowrap;
             @media (max-width: 992px){
                 flex-direction: column;
             }

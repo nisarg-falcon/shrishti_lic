@@ -5,7 +5,7 @@
 
 body{
     font-family: $varela;
-    background-color: $wb;
+    // background-color: $wb;
     h1,h2,h3,h4,h5,h6{
         font-family: $playfair;
     }
@@ -32,7 +32,7 @@ body{
         }
     }  
     #about{
-        background-color: $wb;
+        // background-color: $wb;
         color: black;
         .ab_h{
             display: block;
@@ -107,7 +107,7 @@ body{
         }
     }
     #products{
-        background-color: $wb;
+        // background-color: $wb;
         .p_h1{
             display: block;
             text-align: center;
@@ -194,7 +194,7 @@ body{
                 }
                 &:hover{
                     box-shadow: 0px 10px 20px 10px rgba(92,95,105,0.25);
-                    border: 1px solid rgba(92,99,105,0.25);
+                    // border: 1px solid rgba(92,99,105,0.25);
                 }
             }
         }

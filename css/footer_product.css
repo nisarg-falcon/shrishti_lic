@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
 #banner {
   margin: 0;
 }
@@ -91,6 +93,11 @@ body #header .nav-item a {
 }
 
 body #header .nav-item a:hover {
+  background-color: #1c529d;
+  color: white;
+}
+
+body #header .nav-item a:active {
   background-color: #1c529d;
   color: white;
 }
@@ -200,7 +207,15 @@ body #footer .credit a {
 }
 
 body {
-  background: #b9d1e5 !important;
+  background: #eaf4fc !important;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Playfair Display", serif;
+}
+
+body a, body p {
+  font-family: "Varela", sans-serif;
 }
 
 body ol {
@@ -266,6 +281,11 @@ body #products .product-active a {
   padding: 1em 1.2em;
   background-color: #1c529d;
   border-radius: 5px;
+}
+
+body #products .products {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 @media (max-width: 992px) {

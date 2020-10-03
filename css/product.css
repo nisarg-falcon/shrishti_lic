@@ -95,6 +95,11 @@ body #header .nav-item a:hover {
   color: white;
 }
 
+body #header .nav-item a:active {
+  background-color: #1c529d;
+  color: white;
+}
+
 body #header .dropdown-menu {
   background-color: #1c529d;
 }

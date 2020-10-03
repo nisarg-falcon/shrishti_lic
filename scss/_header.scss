@@ -12,7 +12,7 @@ body{
     -moz-appearance: textfield;
     }
     #header{
-        background-color: #eaf4fc;
+        background-color: $wb;
         @media (max-width: 992px){
             padding: 0 !important;
         }
@@ -46,6 +46,10 @@ body{
                 font-weight: 200;
                 padding: 1em 1.5em;
                 &:hover{
+                    background-color: $primary;
+                    color: white;
+                }
+                &:active{
                     background-color: $primary;
                     color: white;
                 }

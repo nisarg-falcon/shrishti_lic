@@ -1,1 +1,1 @@
-<?php require_once('components/plan.php') ?>
+<?php require_once('components/footer-products.php') ?>
