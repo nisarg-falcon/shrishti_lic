@@ -9,7 +9,18 @@
 </head>
 <body>
     <?php include('components/header.php'); ?>
-    <div id="slider">
+    <div class="cta_container" id="cta">
+        <div class="cta_text_cont">
+            <div class="div_txt">
+                <h1>May I help you with</h1>
+            </div>
+            <div class="div_chg_txt">
+                <h1 class="txt-chg"></h1>
+            </div>
+        </div>
+        <a class="cta-btn" href="/shrishti_lic/contact.php">Contact Me</a>
+    </diV>
+    <!-- <div id="slider">
         <div id="carousel_slider" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li class="active" data-target="#carousel_slider" data-slide-to="0"></li>
@@ -40,17 +51,18 @@
                 <span class="sr-only">next</span>
             </a>
         </div>
-    </div>
+    </div> -->
     <div id="about" class="container-fluid">
         <div  class="container-lg ">
             <div class="row ab_h"><h1>About</h1></div>
             <div class="row about_row">
                 <div class="col-md-4 about_col_1">
                     <div class="image-wrapper">
-                        <img src="images/agent_1.jpg" class="agent_pic"/>
+                        <img src="images/woman.png" class="agent_pic"/>
                     </div>
                 </div>
                 <div class="col-md-8 about_col_2">
+                    <h1>Shrishti Saple</h1>
                     <p>Constantly Going an extra mile
                         I have been associated with LIC for the past 10 years and till going. Due to LIC's advanced plans and solutions for every need, I was able to cater to all sought of clients and customize the plans accordingly. 
                         It gives me immense pleasure when my clients see me as their advisor. I take keen interest to cater to various clients with plans that suit their need and thus am able to save a lot of their funds. 
@@ -91,6 +103,8 @@
     </div>
     <?php include('components/footer.php'); ?>
     <script src="js/jquery.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

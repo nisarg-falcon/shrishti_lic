@@ -188,27 +188,100 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Playfair Display", serif;
 }
 
-body #slider .w-100 {
-  height: 400px !important;
+body #cta {
+  background-image: url("../images/cta_bg.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-@media (max-width: 992px) {
-  body #slider .w-100 {
-    height: 20vh !important;
+body #cta .cta_text_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(234, 244, 252, 0.7);
+  padding: 1em 1.5em;
+}
+
+@media (max-width: 767px) {
+  body #cta .cta_text_cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #cta .cta_text_cont h1 {
+    margin: 0.2em 0 !important;
   }
 }
 
-body #slider .image-wrapper {
-  height: 250px;
-  width: 250px;
+body #cta .cta_text_cont h1 {
+  font-size: 3.5rem;
+  margin: 0 0.2em;
 }
 
-body #slider .carousel-control-prev:hover {
-  background-color: rgba(0, 55, 107, 0.7);
+@media (max-width: 768px) {
+  body #cta .cta_text_cont h1 {
+    font-size: 2.5rem;
+  }
 }
 
-body #slider .carousel-control-next:hover {
-  background-color: rgba(0, 55, 107, 0.7);
+body #cta .cta_text_cont .div_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #cta .cta_text_cont .div_chg_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #cta .cta_text_cont .div_chg_txt .txt-chg {
+  color: #1c529d;
+}
+
+body #cta .cta_text_cont .div_chg_txt span {
+  color: #1c529d;
+  text-align: center;
+  margin-bottom: 0.1em;
+  margin-left: 0.15em;
+  font-size: 3.5rem;
+}
+
+body #cta a {
+  font-size: 1.5rem;
+  margin-top: 2.5em;
+  background-color: #1c529d;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 50px;
 }
 
 body #about {
@@ -287,8 +360,8 @@ body #about .about_row .about_col_1 {
 body #about .about_row .about_col_1 .agent_pic {
   height: 400px;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @media (max-width: 768px) {
@@ -305,6 +378,17 @@ body #about .about_row .about_col_2 {
 @media (max-width: 768px) {
   body #about .about_row .about_col_2 {
     padding: 2em 1em;
+  }
+}
+
+body #about .about_row .about_col_2 h1 {
+  margin: 0.5em 0px;
+  color: #1c529d;
+}
+
+@media (max-width: 768px) {
+  body #about .about_row .about_col_2 h1 {
+    text-align: center;
   }
 }
 
